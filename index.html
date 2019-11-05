@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<style>
+	html {
+		scroll-behavior: smooth;
+	}
+</style>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Enigma E-Cell</title>
+	<link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
+	<link rel="stylesheet" href="dist/css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="./dist/css/animate.css">
+	<script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+	<script src="./dist/js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<script src="https://kit.fontawesome.com/218d0522e3.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="is-boxed has-animations">
+	<div class="body-wrap boxed-container">
+		<header class="site-header text-light">
+			<div class="container">
+				<div class="site-header-inner">
+					<div class="brand header-brand">
+						<h1 class="m-0">
+
+						</h1>
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="hero text-center text-light">
+				<div class="hero-bg"></div>
+				<div class="hero-particles-container">
+					<canvas id="hero-particles"></canvas>
+				</div>
+
+				<div class="container-sm">
+					<div class="hero-inner">
+						<div class="hero-copy">
+							<style>
+								.center {
+									display: block;
+									margin-left: auto;
+									margin-right: auto;
+
+								}
+							</style>
+							<h1 class="hero-title mt-0">
+								<font style="font-size: 13vw">ENIGMA</font>
+							</h1>
+							<h4 class="hero-title mt-0">Entrepreneurship Cell of NMIT</h4>
+							<h4 class="type"></h4>
+							<br>
+							<!--<img class="device-mockup" src="./src/images/logo_enigma.png" alt="iPhone Hero">-->
+							<div class="hero-cta">
+								<a class="button button-primary button-wide-mobile" href="#past-events">Show Events</a>
+								<br><br><br><br><br>
+								<a href="#btn-1"><img src="./down.png" alt="iPhone illustration" class="center"></a>
+							</div>
+						</div>
+						<div class="mockup-container wow fadeInUpBig" data-wow-duration="1s">
+
+							<div class="mockup-bg">
+
+
+							</div>
+
+							<br>
+							<br>
+							<br>
+							<br><br><br><br><br><br><br><br><br>
+							<div id="btn-1"></div>
+							<br><br><br><br>
+
+							<h1 style="text-align: center;">
+								<font style="color:#151D2A">Our Vision</font>
+							</h1>
+							<p class="m-0" style="color: #202428;">
+								<b>Enigma E-Cell</b> aims to transform itself into a platform to launch the leaders of
+								tomorrow towards the path of success. We plan to widen our scope of impact by allowing
+								not only students but working professionals, retired personnel, etc. to have an
+								opportunity to fabricate their vision into reality.
+								Opportunities and networks are the two defining factors in the realm of entrepreneurship
+								that makes all the difference. We want to make sure that there’s no dearth of either.
+								Our team is a small group of hard-working individuals who work day in, day out to bring
+								us closer to our vision, one step at a time.
+							</p>
+
+							<br><br><br><br><br>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<br><br><br><br><br><br><br>
+			<section class="features-extended section">
+				<div class="features-extended-inner section-inner">
+					<div class="features-extended-wrap">
+						<div class="container">
+							<div class="feature-extended">
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-01.svg"
+											alt="iPhone Feature 01 illustration">
+									</div>
+									<div class="device-mockup">
+										<div class="bd-example">
+											<!--<div id="carouselExampleIndicators" class="carousel slide"
+												data-ride="carousel">
+												<ol class="carousel-indicators">
+													<li data-target="#carouselExampleIndicators" data-slide-to="0"
+														class="active"></li>
+													<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+													<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+												</ol>
+												<div class="carousel-inner">
+													<div class="carousel-item active">
+														<img class="d-block w-100" src="./dist/images/event1.jpeg"
+															alt="First slide">
+													</div>
+													<div class="carousel-item">
+														<img class="d-block w-100" src="./dist/images/event2.jpg"
+															alt="Second slide">
+													</div>
+													<div class="carousel-item">
+														<img class="d-block w-100" src="./dist/images/event3.jpg"
+															alt="Third slide">
+													</div>
+												</div>
+												<a class="carousel-control-prev" href="#carouselExampleIndicators"
+													role="button" data-slide="prev">
+													<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+													<span class="sr-only">Previous</span>
+												</a>
+												<a class="carousel-control-next" href="#carouselExampleIndicators"
+													role="button" data-slide="next">
+													<span class="carousel-control-next-icon" aria-hidden="true"></span>
+													<span class="sr-only">Next</span>
+												</a>
+											</div>-->
+											<img class="device-mockup is-revealing" src="dist/images/inception.jpeg"
+										alt="Inception 2019">
+										</div>
+									</div>
+								</div>
+
+								<div class="feature-extended-body is-revealing" id="past-events">
+									<h3 class="mt-0 mb-16">Past Events</h3>
+									<p class="m-0">Everything from conducting intense B-Plan competitions to hosting
+										entrepreneurship-driven workshops, we do it all!</p>
+								</div>
+							</div>
+							<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+							<div class="feature-extended">
+								<div class="feature-extended-body is-revealing">
+									<h3 class="mt-0 mb-16">Upcoming Events</h3>
+									<p class="m-0">Brace yourself for Inception 2019 as we host our coveted events:
+										<b>DISRUPT</b> and <b>Investor Hunt</b>.</p>
+									<br><a class="button button-primary button-wide-mobile" href="#">Subscribe to Push
+										Notifications</a>
+									<br><br><br><br>
+								</div>
+								<div class="feature-extended-image">
+									<div class="mockup-bg">
+										<img src="dist/images/iphone-feature-bg-02.svg"
+											alt="iPhone Feature 02 illustration">
+									</div>
+									<img class="device-mockup is-revealing" src="dist/images/inception.jpeg"
+										alt="Inception 2019">
+								</div>
+							</div>
+							<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+							<h3 class="wow fadeInUp" style="text-align: center;">Meet The Team</h3>
+							<br><br>
+							<div class="row">
+								<div class="col">
+									<div class="card-deck">
+										<div class="card wow fadeInUp" data-wow-delay="0.5s">
+											<img src="./dist/images/Venuka.jpeg" class="card-img-top" alt="...">
+											<div class="card-body">
+												<h5 class="card-title">Villa Sri Venuka</h5>
+												<p class="card-text">Team Head</p>
+											</div>
+										</div>
+										<div class="card wow fadeInUp" data-wow-delay="0.8s">
+											<img src="./dist/images/Mohit.png" class="card-img-top"
+												alt="Mohit Prabhakar (Team Head)">
+											<div class="card-body">
+												<h5 class="card-title">Mohit Prabhakar</h5>
+												<p class="card-text">Team Vice Head</p>
+											</div>
+										</div>
+										<div class="card wow fadeInUp" data-wow-delay="1.1s">
+											<img src="./dist/images/Vivek.png" class="card-img-top"
+												alt="Vivek Kumar (Vice-Head)">
+											<div class="card-body">
+												<h5 class="card-title">Vivek Kumar</h5>
+												<p class="card-text">Team Operations Manager</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col">
+									<div class="card-deck">
+										<div class="card wow fadeInUp" data-wow-delay="0.5s">
+											<img src="./dist/images/Sandeep.jpeg" class="card-img-top"
+												alt="Sandeep Kumar (HR)">
+											<div class="card-body">
+												<h5 class="card-title">Sandeep Kumar K.</h5>
+												<p class="card-text">HR</p>
+											</div>
+										</div>
+										<div class="card wow fadeInUp" data-wow-delay="0.8s">
+											<img src="./dist/images/Yash.png" class="card-img-top"
+												alt="Yash Jaiswal (Technical Head)">
+											<div class="card-body">
+												<h5 class="card-title">Yash Jaiswal</h5>
+												<p class="card-text">Technical Head</p>
+											</div>
+										</div>
+										<div class="card wow fadeInUp" data-wow-delay="1.1s">
+											<img src="./dist/images/Somya.jpeg" class="card-img-top"
+												alt="Somya Srivastava (Public Relations Head)">
+											<div class="card-body">
+												<h5 class="card-title">Somya Srivastava</h5>
+												<p class="card-text">Public Relations Head</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col">
+									<div class="card-deck">
+										<div class="card wow fadeInUp" data-wow-delay="0.5s">
+											<img src="./dist/images/Alini.jpeg" class="card-img-top"
+												alt="Alini Christ Paul (Finance Head)">
+											<div class="card-body">
+												<h5 class="card-title">Alini Christ Paul</h5>
+												<p class="card-text">Finance Head</p>
+											</div>
+										</div>
+										<div class="card wow fadeInUp" data-wow-delay="0.8s">
+											<img src="./dist/images/Pratik.jpeg" class="card-img-top" alt="...">
+											<div class="card-body">
+												<h5 class="card-title">Pratik Nalawade</h5>
+												<p class="card-text">Events Management Head</p>
+
+											</div>
+										</div>
+										<div class="card wow fadeInUp" data-wow-delay="1.1s">
+											<img src="./dist/images/Pooja.jpeg" class="card-img-top" alt="...">
+											<div class="card-body">
+												<h5 class="card-title">Pooja Rai</h5>
+												<p class="card-text">Documentation Head</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col col-sm-8 ">
+									<div class="card-deck">
+										<div class="card wow fadeInUp" data-wow-delay="0.5s">
+											<img src="./dist/images/ajay.jpeg" class="card-img-top"
+												alt="Ajay Pal Rathore (Social Media Marketing Head)" height="10"
+												width="10">
+											<div class="card-body">
+												<h5 class="card-title">Ajay Pal Rathore</h5>
+												<p class="card-text small">Social Media Marketing Head</p>
+											</div>
+										</div>
+										<div class="card wow fadeInUp" data-wow-delay="0.8s">
+											<img src="./dist/images/Suhail.jpeg" class="card-img-top" alt="...">
+											<div class="card-body">
+												<h5 class="card-title">D. Suhail</h5>
+												<p class="card-text">Logistics Head</p>
+
+											</div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+							<br>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<br><br><br><br><br><br><br><br><br><br>
+		<footer class="site-footer">
+			<div class="footer-particles-container">
+				<canvas id="footer-particles"></canvas>
+			</div>
+			<div class="site-footer-top wow fadeIn" data-wow-delay="1s">
+				<section class="cta section text-light">
+					<div class="container-sm">
+						<div class="row">
+							<div class="col offset-md-1">
+								<div class="cta-inner section-inner">
+									<div class="cta-header text-center">
+										<h2 class="section-title mt-0">Contact Us</h2>
+										<form class="form-inline center" action="https://mailthis.to/ecellnmit"
+											method="POST" encType="multipart/form-data">
+
+											<div class="row">
+												<div class="col-sm-12 col-md-6">
+													<div class="input-group mb-2 mr-sm-2">
+														<div class="input-group-prepend">
+															<div class="input-group-text">Name</div>
+														</div>
+														<input name="Name" type="text" class="form-control">
+													</div>
+												</div>
+												<div class="col-sm-12 col-md-6">
+													<div class="input-group mb-2 mr-sm-2">
+														<div class="input-group-prepend">
+															<div class="input-group-text">Email ID</div>
+														</div>
+														<input name="_replyto" type="email" class="form-control">
+													</div>
+												</div>
+											</div>
+											<div class="input-group mb-2 mr-sm-2">
+												<div class="input-group-prepend">
+													<div class="input-group-text">Message</div>
+												</div>
+												<textarea name="message" class="form-control" rows="3"
+													cols="54"></textarea>
+											</div>
+											<input type="hidden" name="_honeypot" value="">
+											<button type="submit" class="btn btn-primary center"
+												value="Send">Submit</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="site-footer-bottom">
+				<div class="container">
+					<div class="site-footer-inner">
+						<div class="brand footer-brand">
+							<a href="#">
+								<img src="dist/images/logo.svg" alt="Venus logo">
+							</a>
+						</div>
+						<ul class="footer-social-links list-reset">
+							<li>
+								<a href="https://www.facebook.com/ecellnmit/" target="_blank">
+									<i class="fab fa-facebook fa-3x"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/ecellnmit/" target="_blank">
+									<i class="fab fa-instagram fa-3x"></i>
+								</a>
+							</li>
+						</ul>
+						<div style="color: white;">Made with ❤️ by E-Cell of NMIT</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="./src/js/main.js"></script>
+	<script src="./src/js/index.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="/__/firebase/7.2.3/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="/__/firebase/7.2.3/firebase-analytics.js"></script>
+
+	<!-- Initialize Firebase -->
+	<script src="/__/firebase/init.js"></script>
+
+</body>
+
+</html>
